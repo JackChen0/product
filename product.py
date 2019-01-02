@@ -9,3 +9,5 @@ while True:
 	
 
 print(pr)
+for p in pr:
+	print('The price of ',p[0],'is', p[1])
