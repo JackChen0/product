@@ -5,8 +5,7 @@ while True:
 	if product == 'end':
 		break
 	price = input ('Enter the price of product. ')
-	p = [product, price]
-	pr.append(p)
+	pr.append([product,price])
 	
 
 print(pr)
